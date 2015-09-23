@@ -1,0 +1,64 @@
+---
+author: Alishex
+comments: true
+date: 2014-07-11 14:17:23+00:00
+layout: post
+slug: singleton
+title: Singleton
+wordpress_id: 65
+categories:
+- Creational
+- Design Patterns
+---
+
+Singleton is a simple object-oriented design pattern where a class only gets to have one single instance at any given time while providing a global point of access.
+
+**Intent**
+
+
+
+	
+  * Ensures that only one instance of class is exists at a given time.
+
+	
+  * Provides a global point of access to the instance.
+
+
+
+Here is how you create a singleton:
+
+    
+    
+    class SampleSingleton{
+    	
+    	private static SampleSingleton instance;
+    
+    	private SampleSingleton(){
+    		// initiate components
+    	}
+    
+    	// This is the global access point
+    	public synchronized SampleSingleton getInstance(){
+    		if(instance == null){
+    			instance = new SampleSingleton();
+    		}
+    		return instance;
+    	}
+    
+    	public void foreverAlone(){
+    		// ...
+    	}
+    }
+    
+
+
+
+After doing this all you need to do is:
+
+    
+    
+    	SampleSingleton.getInstance().foreverAlone();
+    
+
+
+Using singleton is especially useful when handling single resources such as loggers, configurations etc.
