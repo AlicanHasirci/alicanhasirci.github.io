@@ -1,12 +1,40 @@
 # Site settings
-title: alican
-email: alishex@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Alican\'s blog 
+description: A blog about lorem ipsum dolor sit amet
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://alican.co" # the base hostname & protocol for your site
+url: "http://alican.co" # the base hostname & protocol for your site 
+
+# User settings
+username: Alican HASIRCI
+user_description: Developer at Peak Games
+user_title: Developer at Peak Games
+email: alican_hasirci@hotmail.com
 twitter_username: AlicanHasirci
 github_username:  AlicanHasirci
+gplus_username:  AlicanHasirci
+disqus_username: 
 
 # Build settings
 markdown: kramdown
+highlighter: pygments
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']

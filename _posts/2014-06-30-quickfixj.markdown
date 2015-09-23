@@ -46,7 +46,7 @@ I am going to skip the GUI part since it does not have anything to do with quick
 
 **QuickFixInitiator**
 
-This layer gets active when user click to _connect _button from GUI and approves the connection settings. A new QuickFixInitiator gets started and this initiator basicly creates whatever needed to create a proper _QuickFixApplication_.
+This layer gets active when user click to _connect _button from GUI and approves the connection settings. A new QuickFixInitiator gets started and this initiator basicaly creates whatever needed to create a proper _QuickFixApplication_.
 
     
     	public static void start(FixGUI context, boolean messageNoReseteSelected, 
