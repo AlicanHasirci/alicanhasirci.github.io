@@ -15,15 +15,9 @@ Singleton is a simple object-oriented design pattern where a class only gets to 
 
 **Intent**
 
-
-
-	
-  * Ensures that only one instance of class is exists at a given time.
-
-	
-  * Provides a global point of access to the instance.
-
-
+* Ensures that only one instance of class is exists at a given time.
+* Provides a global point of access to the instance.
+    
 
 Here is how you create a singleton:
 

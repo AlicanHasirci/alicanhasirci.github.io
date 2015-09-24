@@ -21,12 +21,8 @@ Chain of Responsibility is a pattern where a request gets passed on between Hand
 **Intent**
 
 
-
-
-  * Prevents the sender to explicitly defining the handler, creating a intelligent mechanism if done correctly while preserving encapsulation.
-
-
-  * Object becomes the responsibility of the chain until someone handles it.
+* Prevents the sender to explicitly defining the handler, creating a intelligent mechanism if done correctly while preserving encapsulation.
+* Object becomes the responsibility of the chain until someone handles it.
 
 
 

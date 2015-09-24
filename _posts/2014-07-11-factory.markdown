@@ -15,15 +15,8 @@ Probably one of the most frequently used creational patterns, a Factory is a cla
 
 **Intent**
 
-
-
-	
-  * Creates an object with certain rules, without exposing the instantiation logic
-
-	
-  * Refers to the newly created object through a common interface
-
-
+* Creates an object with certain rules, without exposing the instantiation logic
+* Refers to the newly created object through a common interface
 
 Here is a sample factory:
 

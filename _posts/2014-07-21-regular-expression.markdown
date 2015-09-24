@@ -36,7 +36,7 @@ A good start for a regex would be looking for a cheatsheet to see what means mor
 
 **+** - Matches 1 or more of the preceding token.
 
-***** - Matches 0 or more of the preceding token.
+**\*** - Matches 0 or more of the preceding token.
 
 These are the basic character classes that can be used as a match. By putting a quantifier behind such character classes you can tell regex to look for what and for how many.
 Also before checking an example a good thing to remember is the use of parentheses. Just like in math, everything between "(" and ")" is considered as a group so putting a quantifier right after a matching group will effect the whole group rather then a single token. Now lets take a look at an example.

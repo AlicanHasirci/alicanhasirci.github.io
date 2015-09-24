@@ -17,70 +17,38 @@ tags:
 Android applications are made out of components. There are four Android components.
 
 
-
-	
-  * Activity
-
-	
-  * Service
-
-	
-  * Broadcast Reciever
-
-	
-  * Content Provider
+* Activity
+* Service
+* Broadcast Reciever
+* Content Provider
 
 
 Applications are typically created from multiple components which Android instantiates and runs them as needed where each of these components serves a different purpose in the Android ecosystem.
 
 **Activity**
 
-
-
-	
-  * Primary class for user interactions
-
-	
-  * Serves a single focused purpose
+* Primary class for user interactions
+* Serves a single focused purpose
 
 
 **Service**
 
-
-
-	
-  * Run in background
-
-	
-  * Used for long running operations
-
-	
-  * To support operations with processes
+* Run in background
+* Used for long running operations
+* To support operations with processes
 
 
 **BroadcastReciever**
 
-
-
-	
-  * Component that listens for and responds to an event
-
-	
-  * Servers as a Subscriber in Publish/Subscribe pattern. Similar to Observer pattern
+* Component that listens for and responds to an event
+* Servers as a Subscriber in Publish/Subscribe pattern. Similar to Observer pattern
 
 
 **ContentProvider**
 
-
-
-	
-  * Used to store&share data across applications
-
-	
-  * Uses database-style interface
-
-	
-  * Handles interprocess communication
+* Used to store&share data across applications
+* Uses database-style interface
+* Handles interprocess communication
 
 
 Remember that your Android applications are much more then just source codes. There are pleanty of non-source code entities such as drawables, animations, layouts, values such as string and styles and finally the manifest.

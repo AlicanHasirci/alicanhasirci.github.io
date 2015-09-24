@@ -23,21 +23,11 @@ Even though i never had worked with QuickFix i thought i'd give it a try. I am w
 Here are the layers of application that i've created:
 
 
-
-	
-  * **GUI** - Where the interaction happens
-
-	
-  * **Initiator** - Where the initiation happens. Not To be mixed with a socket initiator.
-
-	
-  * **Application** - Extends _quickfix.Application_
-
-	
-  * **Outbound** - This part takes care of sending messages
-
-	
-  * **Inbound** - Recieves and proccesses the messages
+* **GUI** - Where the interaction happens
+* **Initiator** - Where the initiation happens. Not To be mixed with a socket initiator.
+* **Application** - Extends _quickfix.Application_
+* **Outbound** - This part takes care of sending messages
+* **Inbound** - Recieves and proccesses the messages
 
 
 I am going to skip the GUI part since it does not have anything to do with quickfix itself.
