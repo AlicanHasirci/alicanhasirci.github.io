@@ -1,7 +1,8 @@
 # Site settings
-description: A blog about lorem ipsum dolor sit amet
+description: alican.co
+title: alican.co
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://alican.co" # the base hostname & protocol for your site 
+url: "http://alican.co" # the base hostname & protocol for your site
 
 # User settings
 username: Alican HASIRCI
