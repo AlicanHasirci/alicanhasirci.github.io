@@ -1,18 +1,17 @@
 ---
-author: Alishex
-comments: true
-date: 2014-07-02 08:55:47+00:00
 layout: post
-slug: object-pool
-title: Object Pool
-wordpress_id: 48
+title: "Object Pool"
+date: 2014-07-02 08:55:47
+image: '/assets/img/'
+description:
+tags:
+- creational design pattern
+- design pattern
+- singleton
 categories:
 - Creational
 - Design Patterns
-tags:
-- constructional design pattern
-- design pattern
-- singleton
+twitter_text: Object Pool
 ---
 
 An object pool is a singleton object which creates, distributes and after the use acquires objects are expensive to create. 

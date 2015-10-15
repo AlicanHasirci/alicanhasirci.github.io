@@ -1,14 +1,17 @@
 ---
-author: Alishex
-comments: true
-date: 2014-07-11 14:18:14+00:00
 layout: post
-slug: factory
-title: Factory
-wordpress_id: 67
+title: "Factory"
+date: 2014-07-11 14:18
+image: '/assets/img/'
+description:
+tags:
+- creational design pattern
+- design pattern
+- singleton
 categories:
 - Creational
 - Design Patterns
+twitter_text: Factory
 ---
 
 Probably one of the most frequently used creational patterns, a Factory is a class which produces objects for clients usage.

@@ -1,13 +1,16 @@
 ---
-author: Alishex
-comments: true
-date: 2014-08-07 07:56:28+00:00
 layout: post
-slug: iterator
-title: Iterator
-wordpress_id: 91
+title: "Iterator"
+date: 2014-08-07 07:56:28
+image: '/assets/img/'
+description:
+tags:
+- behavioral design patterns
+- design pattern
 categories:
-- Other
+- Creational
+- Design Patterns
+twitter_text: Iterator
 ---
 
 One of the most commonly used data structure used in programming is genericly called a collection. A collection is a group of objects in same type or sometimes casted to a base type like an_Object_ instance. Arrays, lists, vectors, maps whatever you can think about falls into this category.

@@ -1,15 +1,18 @@
 ---
-author: Alishex
-comments: true
-date: 2014-07-11 14:17:23+00:00
 layout: post
-slug: singleton
-title: Singleton
-wordpress_id: 65
+title: "Singleton"
+date: 2014-07-11 14:17:23
+image: '/assets/img/'
+description: One Object To Rule Them All
+tags:
+- creational design patterns
+- design pattern
 categories:
 - Creational
 - Design Patterns
+twitter_text: Singleton
 ---
+
 
 Singleton is a simple object-oriented design pattern where a class only gets to have one single instance at any given time while providing a global point of access.
 

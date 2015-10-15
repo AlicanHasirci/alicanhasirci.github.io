@@ -1,14 +1,9 @@
 ---
-author: Alishex
-comments: true
-date: 2014-10-10 16:18:25+00:00
 layout: post
-slug: multi-threading-and-java-memory-model
-title: Multi-Threading & Java Memory Model
-wordpress_id: 102
-categories:
-- Java
-- Programming
+title: "Multi-Threading & Java Memory Model"
+date: 2014-10-10 16:18:25
+image: '/assets/img/'
+description:
 tags:
 - final
 - java
@@ -20,6 +15,10 @@ tags:
 - synchronized
 - threading
 - volatile
+categories:
+- Java
+- Programming
+twitter_text: Multi-Threading & Java Memory Model
 ---
 
 Hello. Been sometime since I posted anything but I broke my silence to talk about Java Memory Model.Okay so here is the game-plan, first we'll talk about some problems Java has that you won't notice unless you are doing something multi-threaded, analyze them and then we'll look how we can avoid such problems and where the memory model swoops-in to rescue.

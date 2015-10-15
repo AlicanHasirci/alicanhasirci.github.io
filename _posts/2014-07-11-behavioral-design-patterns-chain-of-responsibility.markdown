@@ -1,17 +1,16 @@
 ---
-author: Alishex
-comments: true
-date: 2014-07-11 14:12:25+00:00
 layout: post
-slug: behavioral-design-patterns-chain-of-responsibility
-title: Chain Of Responsibility
-wordpress_id: 62
-categories:
-- Behavioral
-- Design Patterns
+title: "Chain Of Responsibility"
+date: 2014-07-11 14:12:25
+image: '/assets/img/'
+description:
 tags:
 - behavioral design patterns
 - design pattern
+categories:
+- Behavioral
+- Design Patterns
+twitter_text: Chain Of Responsibility
 ---
 
 **Chain Of Responsibility**

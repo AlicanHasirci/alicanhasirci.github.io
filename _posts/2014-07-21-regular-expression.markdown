@@ -1,19 +1,18 @@
 ---
-author: Alishex
-comments: true
-date: 2014-07-21 12:55:42+00:00
 layout: post
-slug: regular-expression
-title: Regular Expression
-wordpress_id: 87
-categories:
-- Programming
+title: "Regular Expression"
+date: 2014-07-21 12:55:42
+image: '/assets/img/'
+description:
 tags:
 - parse
 - pattern
 - regex
 - regular expression
 - string
+categories:
+- Programming
+twitter_text: Regular Expression
 ---
 
 Most commonly seen as "Regex", is a forgotten art of pattern searching and the most useful if not one of the useful things that you can use while parsing strings or simply working with strings. Usage of regex is another plus where all common programming languages have a native support for it. 

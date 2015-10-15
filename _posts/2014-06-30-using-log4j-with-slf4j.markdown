@@ -1,18 +1,17 @@
 ---
-author: Alishex
-comments: true
-date: 2014-06-30 14:22:03+00:00
 layout: post
-slug: using-log4j-with-slf4j
-title: Using LOG4J with SLF4J
-wordpress_id: 41
-categories:
-- Java
-- Programming
+title: "Using LOG4J with SLF4J"
+date: 2014-06-30 14:22:03
+image: '/assets/img/'
+description:
 tags:
 - java
 - log4j
 - slf4j
+categories:
+- Java
+- Programming
+twitter_text: Using LOG4J with SLF4J
 ---
 
 Logging is a pretty much underrated but especially while working on communicational applications it is a must and doing it proper can save a lot of time and makes you look good.

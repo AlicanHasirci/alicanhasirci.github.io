@@ -1,20 +1,18 @@
 ---
-author: Alishex
-comments: true
-date: 2014-06-30 11:59:20+00:00
 layout: post
-slug: quickfixj
 title: QuickFix/J
-wordpress_id: 28
-categories:
-- Java
-- Programming
+date: 2014-06-30 11:59:20+00:00
+description:
 tags:
 - fix
 - java
 - quickfix
 - quickfix/j
 - stock exchange
+categories:
+- Java
+- Programming
+twitter_text: QuickFix/J
 ---
 
 As my first post i thought i'd write on what i am working on nowadays. Few months ago i accepted a work to write a QuickFix integration solution since Borsa Istanbul was having a transition to quickfix.
