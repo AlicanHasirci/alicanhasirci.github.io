@@ -14,15 +14,14 @@ categories:
 twitter_text:
 ---
 
-Lately, i was tasked to integrate 'Screenshot Sharing' on one of ours, [Spades Plus](https://play.google.com/store/apps/details?id=net.peakgames.mobile.spades.android). To simply put it, the task was to allow users share a screenshot with a predefined message for promotion. 
+Lately, i was tasked to integrate 'Screenshot Sharing' on one of ours, [Spades Plus](https://play.google.com/store/apps/details?id=net.peakgames.mobile.spades.android). To simply put it, the task was to allow users share a screenshot with a predefined message for promotion.
 
 Ideally doing this should be easy where you put your message with your screenshot uri to intent and applications can handle it properly, except for Facebook. Facebook for some reason still unknown to me, does not let you share a link with an image(at least it wasn't when had thet task, may have changed now). At first i thought this was from a was a design policy, then asking the iOS developer tasked with the same job made me believe otherwise. On iOS you can share a link with an image but on Android you cannot. Doing both one at a time was not an option thanks to product manager so i had to come up with a new game plan. 
 
 Thought proccess went like this. I could share both(link and picture) on facebook as a story but this would require a different action path to take from other social media channels and i didn't want to give up on them so easily, so there had to be a choice for user to pick from. I could not do it with android's own intent chooser, since i cannot get a callback from i put my hacker hat on. After considering bunch of ideas i settled with developing my own IntentChooser which would look and feel like the native one, but take action according to users choice.
 
 So here is what the class looks like:
-
-
+{% highlight ruby linenos %}
 	public class ChooserDialog extends Dialog{
 
 	    public ChooserDialog(Context context, String title,Intent intent, final Callback callback, String... filter) {
@@ -76,9 +75,9 @@ So here is what the class looks like:
 	        public void itemClicked(String packageName);
 	    }
 	}
-
+{% endhighlight %}
 One thing to notice here is that i've implemented a filter to filter out unwanted packages. Also there are some missing classes, DialogListAdapter and DialogListItem that the adapter uses. Their job is pretty much obvious but i'll elaborate. Basicly adapter only gets the ResolveInfo list to pass it during the creation of DialogListItem then calls the callback given on items click.
-
+{% highlight ruby linenos %}
 	public class DialogListAdapter extends BaseAdapter {
 
 	    private Context context;
@@ -119,11 +118,11 @@ One thing to notice here is that i've implemented a filter to filter out unwante
 	        return item;
 	    }
 	}
-
+{% endhighlight %}
 
 And here is the DialogListItem class that represents every item on the list.
 
-
+{% highlight ruby linenos %}
 	// I urge you to create your layout as an XML, i could not due to some project-related restrictions.
 	public class DialogListItem extends LinearLayout {
 
@@ -170,11 +169,11 @@ And here is the DialogListItem class that represents every item on the list.
 	        return new BitmapDrawable(getResources(), bitmapResized);
 	    }
 	}
-
+{% endhighlight %}
 
 From this point on, say you want to share an image with different behaviour for every social media:
 
-
+{% highlight ruby linenos %}
 	Intent shareIntent = new Intent(Intent.ACTION_SEND);
     shareIntent.setType("image/png");
     ChooserDialog.Callback callback = new ChooserDialog.Callback() {
@@ -185,7 +184,7 @@ From this point on, say you want to share an image with different behaviour for 
     };
     ChooserDialog dialog = new ChooserDialog(activity, chooserTitle, shareIntent, callback, filter);
     dialog.show();
-
+{% endhighlight %}
 
 What i did after this was to handle the callback so that if it is facebook:
 
