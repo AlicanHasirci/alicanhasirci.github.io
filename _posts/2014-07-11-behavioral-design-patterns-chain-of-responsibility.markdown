@@ -27,8 +27,7 @@ Chain of Responsibility is a pattern where a request gets passed on between Hand
 
 Here is an example of how. First we create a Request class to act as... well a request.
 
-    
-    
+{% highlight java %}
     public class Request {
     	private int value;
     	private String name;
@@ -54,13 +53,11 @@ Here is an example of how. First we create a Request class to act as... well a r
     		this.name = name;
     	}
     }
-    
-
+{% endhighlight %}
 
 Here is the abstract Handler class to be extended by Concrete Handlers.
 
-    
-    
+{% highlight java %}
     public abstract class Handler {
     	
     	private static List<handler> chain = new ArrayList<handler>();
@@ -79,13 +76,11 @@ Here is the abstract Handler class to be extended by Concrete Handlers.
     	
     	public abstract void handleRequest(Request request);
     }
-    
-
+{% endhighlight %}
 
 As you can see for this example i've created a static ArrayList to register all the Handler implementations that are created. This way whenever you extend Handler calling the super constructor will add it to the chain automaticly. Lets see the concrete handlers now.
 
-    
-    
+{% highlight java %}
     // ConcreteHandlerOne.java
     public class ConcreteHandlerOne extends Handler{
     
@@ -134,14 +129,12 @@ As you can see for this example i've created a static ArrayList to register all 
     			this.passNext(request);
     	}
     }
-    
-
+{% endhighlight %}
 
 As you can each Handler implementation handles the request as they please and if they do not then pass it to the successor.
 Lets see the main method now:
 
-    
-    
+{% highlight java %}
     public class Launcher {
     	public static void main(String[] args) {
     		ConcreteHandlerOne handlerOne = new ConcreteHandlerOne();
@@ -163,4 +156,4 @@ Lets see the main method now:
     		handlerThree.handleRequest(r3);	// Concrete 3 Handled:Request3
     	}
     }
-    
+{% endhighlight %}

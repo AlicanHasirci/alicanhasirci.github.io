@@ -21,7 +21,7 @@ Ideally doing this should be easy where you put your message with your screensho
 Thought proccess went like this. I could share both(link and picture) on facebook as a story but this would require a different action path to take from other social media channels and i didn't want to give up on them so easily, so there had to be a choice for user to pick from. I could not do it with android's own intent chooser, since i cannot get a callback from i put my hacker hat on. After considering bunch of ideas i settled with developing my own IntentChooser which would look and feel like the native one, but take action according to users choice.
 
 So here is what the class looks like:
-{% highlight ruby linenos %}
+{% highlight java %}
 	public class ChooserDialog extends Dialog{
 
 	    public ChooserDialog(Context context, String title,Intent intent, final Callback callback, String... filter) {
@@ -77,7 +77,7 @@ So here is what the class looks like:
 	}
 {% endhighlight %}
 One thing to notice here is that i've implemented a filter to filter out unwanted packages. Also there are some missing classes, DialogListAdapter and DialogListItem that the adapter uses. Their job is pretty much obvious but i'll elaborate. Basicly adapter only gets the ResolveInfo list to pass it during the creation of DialogListItem then calls the callback given on items click.
-{% highlight ruby linenos %}
+{% highlight java %}
 	public class DialogListAdapter extends BaseAdapter {
 
 	    private Context context;
@@ -122,7 +122,7 @@ One thing to notice here is that i've implemented a filter to filter out unwante
 
 And here is the DialogListItem class that represents every item on the list.
 
-{% highlight ruby linenos %}
+{% highlight java %}
 	// I urge you to create your layout as an XML, i could not due to some project-related restrictions.
 	public class DialogListItem extends LinearLayout {
 
@@ -173,7 +173,7 @@ And here is the DialogListItem class that represents every item on the list.
 
 From this point on, say you want to share an image with different behaviour for every social media:
 
-{% highlight ruby linenos %}
+{% highlight java %}
 	Intent shareIntent = new Intent(Intent.ACTION_SEND);
     shareIntent.setType("image/png");
     ChooserDialog.Callback callback = new ChooserDialog.Callback() {

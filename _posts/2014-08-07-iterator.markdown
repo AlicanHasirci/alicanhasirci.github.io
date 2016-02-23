@@ -22,19 +22,16 @@ Purpose is to let you reach to the objects of an aggregate object without exposi
 
 Lets create a generic iterator.
 
-    
-    
-    public interface Iterator<t> {
+{% highlight java %}
+    public interface Iterator<T> {
     	public T next();
     	public boolean hasNext();
     }
-    
-
+{% endhighlight %}
 
 Now we need a class that will implement this and another class to nest them all.
 
-    
-    
+{% highlight java %}
     public class Farm {
     
     	Animal[] farmAnimals;
@@ -63,8 +60,7 @@ Now we need a class that will implement this and another class to nest them all.
     		}
     	}
     }
-    
-
+{% endhighlight %}
 
 As you can see the iteration mechanism is nested inside the our main class which is _Farm.java_ in this example. By doing this we are concealing our interation mechanism while providing a fully fledged interation mechanism to your liking.
 

@@ -25,8 +25,7 @@ Hello. Been sometime since I posted anything but I broke my silence to talk abou
 
 _Does my program get executed in the order it is coded?_ Well literally speaking, no. Since the compiler may reorder the execution trace as long as the semantics does not change. So lets say we have such a piece of goofy code:
 
-    
-    
+{% highlight java %}
     public static void main(String[] args){
     	int a,b;
     	a = 1;
@@ -35,7 +34,7 @@ _Does my program get executed in the order it is coded?_ Well literally speaking
     	int c;
     	c = a;
     }
-    
+{% endhighlight %}
 
 
 Lets talk about what happens here:
@@ -49,7 +48,7 @@ Although you may expect that every proccess happens in this exact order that may
 
 Everything is nice and dandy for now but what happens when a Thread takes cares of writing to "a" and another Thread that will read the value of "a"? Here comes problem:
 
-{% highlight ruby linenos %}
+{% highlight java %}
     // Thread 1
     public void someStuff(){
     	a = 1;
@@ -67,8 +66,7 @@ What happens now? There is no way each thread can mess with intra-thread(inside 
 
 Like reordering is not enough there are times when CPU may cache the variable in register to ease the traffic on shared memory bus. Here is a situation where such a problem can occur:
 
-    
-    
+{% highlight java %}
     // Thread 1
     public void looper(){
     	while(!done){
@@ -79,7 +77,7 @@ Like reordering is not enough there are times when CPU may cache the variable in
     public void changer(){
     	done = true;
     }
-    
+{% endhighlight %}    
 
 
 
@@ -90,26 +88,21 @@ Now before we proceed further to memory model, first we should see what are our 
 Let's start with synchronization. Since each Java class implicitly extends **java.lang.Object** class(In fact only class that does not do this is the Object class itself), every object comes to life with some synchronization mechanisms of their own, such as a monitor. A monitor is basically a locking system which can be locked by one thread at a time, it is like hold the balls of someone over the course of conversation, only one person can hold the balls at a time, if someone else wants a grip they should wait for you to release. So when a thread holds the lock on a monitor of an object, all the other threads that want to do something with it must wait for the monitor to be unlocked. You can interact with an objects monitor by using **synchronized** keyword and there are two places to use it.
 First way is to use a synchronized block:
 
-    
-    
+{% highlight java %}
     public void method(){
     	synchronized(object){
     		// During this time you hold the lock on object's monitor.
     	}
     }
-    
-
-
+{% endhighlight %}
 
 Second way is to use a synchronized method:
 
-    
-    
+{% highlight java %}
     public synchronized void syncMethod(){
     
     }
-    
-
+{% endhighlight %}
 
 Okay then, here is the question. At first example we used the monitor of "object" but which object monitor gets locked at the second one? Well in this example since the method is not **static** this means the instance(**this**) object's monitor gets the lock. If the method is static then it is the Class object that feels the grope.
 There is more to an Object then monitor such as Waiting Sets but that has to wait() till I notify() them on another topic.

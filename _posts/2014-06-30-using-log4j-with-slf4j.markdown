@@ -17,7 +17,7 @@ twitter_text: Using LOG4J with SLF4J
 Logging is a pretty much underrated but especially while working on communicational applications it is a must and doing it proper can save a lot of time and makes you look good.
 For years i've used a lot of different logging libraries, some i coded myself some third parties. In the things that i've tried out using SLF4J with LOG4J seems to be my favorite thou a bit complicated in start, it's proven to be highly customizable therefore making things a lot more easier once you get the gist of it.
 
-[![concrete-bindings](http://www.alicanhasirci.com/wp-content/uploads/2014/06/concrete-bindings-300x165.png)](http://www.alicanhasirci.com/wp-content/uploads/2014/06/concrete-bindings.png)
+{% include image.html url="http://www.slf4j.org/images/concrete-bindings.png" description="SLF4J Concrete Bindings" %}
 
 Here you can see the bindings of SLF4J with different systems. If you are going to use SLF4J at first glance this may look a bit complicated but it is pretty useful. Since we are going to use LOG4J with SLF4J first thing you need is to have the noted libraries(slf4j-api.jar, slf4j-log412.jar, log4j.jar) under your classpath folder. Also remember that you shouldn't have more then 1 binding library in your classpath.
 
@@ -59,13 +59,10 @@ Next appender belongs to "alicanhasirci.posts" category, which is a _DailyRollin
 
 Ok we have prepared our properties file for log4j but how do we use these categories(loggers). Well the hard part is over. All you need to do is at the start of every class that you want logging just get the logger you want in such manner :
 
-
-    
-    
+{% highlight java %}
     	private static final Logger postLogger = LoggerFactory.getLogger("alicanhasirci.posts");
     	private static final Logger commentsLogger = LoggerFactory.getLogger("alicanhasirci.comments");
-    
-
+{% endhighlight %}
 
 
 All you need to pay attention here is that the strings you pass to _getLogger_ method must be same as the categories you define at properties file.

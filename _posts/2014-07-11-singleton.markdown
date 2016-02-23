@@ -23,9 +23,7 @@ Singleton is a simple object-oriented design pattern where a class only gets to 
     
 
 Here is how you create a singleton:
-
-    
-    
+{% highlight java %}
     class SampleSingleton{
     	
     	private static SampleSingleton instance;
@@ -46,16 +44,11 @@ Here is how you create a singleton:
     		// ...
     	}
     }
-    
-
-
+{% endhighlight %}
 
 After doing this all you need to do is:
-
-    
-    
+{% highlight java %}
     	SampleSingleton.getInstance().foreverAlone();
-    
-
+{% endhighlight %}
 
 Using singleton is especially useful when handling single resources such as loggers, configurations etc.

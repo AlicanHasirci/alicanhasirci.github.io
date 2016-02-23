@@ -27,9 +27,7 @@ An object pool is a singleton object which creates, distributes and after the us
 
 Now to think of it, a got analogy for an ObjectPool can be a library. Creating a book can be costly for you so when you want something from library, you first go to library(get the instance) then pick the book you want(acquire the object), read it(use the object) and then return it when you are done with it(release it).
 
-
-    
-    
+{% highlight java %}
     class LibraryObjectPool{
     
     	private static LibraryObjectPool instance;
@@ -55,9 +53,7 @@ Now to think of it, a got analogy for an ObjectPool can be a library. Creating a
     		// accept the book back
     	}
     }
-    
-
-
+{% endhighlight %}
 
 Keep in mind that you'll also need an array to hold your objects and flags to know if there are unused ones or not.
 

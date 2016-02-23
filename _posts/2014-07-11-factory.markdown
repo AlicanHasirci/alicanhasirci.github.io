@@ -23,26 +23,20 @@ Probably one of the most frequently used creational patterns, a Factory is a cla
 
 Here is a sample factory:
 
-
-    
-    
+{% highlight java %}
     class WaspFactory{
     	public static Wasp createWasp(){
     		// However you'd like to create a wasp.
     	}
     }
-    
-
-
+{% endhighlight %}
 
 Then you can create a wasp by simply calling _WaspFactory.createWasp();_ from the client.
 The good thing about this pattern is that with a little bit of imagination, you can create various factories abstract factories which may serve you well in terms of maintenance.
 
 Here is an example of how. Say we have a WaspFactory interface.
 
-
-    
-    
+{% highlight java %}    
     // Wasp.java
     public interface Wasp {
     	// Wasp Interface
@@ -61,16 +55,12 @@ Here is an example of how. Say we have a WaspFactory interface.
     		System.out.println("Pollen Wasp created.");
     	}
     }
-    
-
-
+{% endhighlight %}
 
 Above you may see the implementations of _Wasp_ interface. Pay attention to keyword **protected** at definition of constructors. This behaviour enforces that only a class in the exact same package can create a _Hornet_ or a _PollenWasp_.
 Now lets create the factory that will create these wasps.
 
-
-    
-    
+{% highlight java %}
     public class WaspFactory{
     
     	public enum WaspType{
@@ -100,9 +90,7 @@ Now lets create the factory that will create these wasps.
     		}
     	}
     }
-    
-
-
+{% endhighlight %}
 
 Above you can see the WaspFactory as a Singleton with an enumeration of wasp types to pick. Creating this class in same package will let the factory to create these wasps while encapsulating them from rest.
 Now lets see the usage of this code.

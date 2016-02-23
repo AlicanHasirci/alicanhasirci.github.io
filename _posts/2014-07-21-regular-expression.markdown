@@ -50,11 +50,8 @@ How does this pattern matches an ip address? Lets take the part inside the captu
 
 Lets check another example. Say, we want to match a all the emails in a text file. Now we know that the maximum character length for the part before "@" is 25 and minimum 3, can contain letters and numbers also dots but not underscores. Also remember to cover sites with suffixes such as "co.uk"
 
-    
-    
-    \b[\w\d\.]{3,25}@[\w\d]+(\.\w+){1,2}\b
-    
 
+    \b[\w\d\.]{3,25}@[\w\d]+(\.\w+){1,2}\b
 
 
 If you followed this much, this pattern is pretty much straight forward where we try to match for words who have 3 to 25 letters,digits or dots before a @ character also has a word followed by a dot and another word possibly also another dot and a word.
