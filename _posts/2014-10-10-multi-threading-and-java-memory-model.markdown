@@ -49,8 +49,7 @@ Although you may expect that every proccess happens in this exact order that may
 
 Everything is nice and dandy for now but what happens when a Thread takes cares of writing to "a" and another Thread that will read the value of "a"? Here comes problem:
 
-    
-    
+{% highlight ruby linenos %}
     // Thread 1
     public void someStuff(){
     	a = 1;
@@ -61,9 +60,8 @@ Everything is nice and dandy for now but what happens when a Thread takes cares 
     public void someOtherStuff{
     	b = 2;
     	y = a;
-    }
-    
-
+    }  
+{% endhighlight %}
 
 What happens now? There is no way each thread can mess with intra-thread(inside thread) semantics but what about inter-thread(between threads) semantics? Does Thread 1 which is doing someStuff gets to read the variable "b" before Thread 2 who is doing someOtherStuff writes to "b" which will end up with variable "x" having the value "2". This possibility goes the other way too which will end up in either "y" having the value "1" which is intended or the value "0" which is the default value for an int. This problem is called a data race. There are such fun situations in programming which will drive you nuts if you don't know what you are doing.
 
