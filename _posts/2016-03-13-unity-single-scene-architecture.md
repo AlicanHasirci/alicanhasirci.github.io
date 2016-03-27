@@ -17,7 +17,8 @@ twitter_text:
 
 I've been working on a Unity project for sometime now. Since the beginning of the project i've been really meticulous with every line of code and went to extents to optimize everything. During this times of iteration and research, i've stumbled upon on a post about single scene architures. After reading, a lot on the topic my team and i thought we would give it a shot on the game we are still working on since the design document suggested that screen tranisition should involve camera tansformation(for example during a card game, when the round ends, the round result would appear on table and the camera translates to top of table and zooms in) which would impossible with multiple scenes.
 
-**Reasons for using Single Scene Architecture**
+Reasons for using Single Scene Architecture
+-------------------------------------------
 
 Our first complaint on multiple-scene architecture was the static loading screens. For people who are not aware of this issue, you cannot have any animation during the loading phase which makes things really dull if you do not have a good way to tackle it. I've seen some good approaches to this issue but still(pun intended)..
 
@@ -25,30 +26,30 @@ Another good reason for a single scene would be Mono's behaviour of memory alloc
 
 The only downside is that you have to find a way to manage all your screen transitions, assets and gameobjects on one scene. Which brings us to our new topic.
 
-**A single scene to rule them all?**
+A single scene to rule them all?
+--------------------------------
 
 On our case, our 'Screens' were situated in different locations in a 3D room so we hade to provide camera translations between all these screens while managing their assets during this proccess. So i had to come up with a 'ScreenManager' who would provide such behaviour.
 
 My aim was to create 'ScreenView' gameobjects and collect everything about that screen under this objects to keep everything tidy and centralize the logic on each screen. 
 
-{% highlight csharp %}
-public abstract class ScreenView : View 
-	{
-		public abstract Vector3 Position{get;}
-		public abstract Vector3 Rotation{get;}
+```csharp
+public abstract class ScreenView : View {
+	public abstract Vector3 Position{get;}
+	public abstract Vector3 Rotation{get;}
 
-		public abstract void ScreenWillAppear();
-		public abstract void ScreenDidAppear();
-		public abstract void ScreenWillDisappear();
-		public abstract void ScreenDidDisappear();
-	}
-{% endhighlight %}
+	public abstract void ScreenWillAppear();
+	public abstract void ScreenDidAppear();
+	public abstract void ScreenWillDisappear();
+	public abstract void ScreenDidDisappear();
+}
+```
 
 This is the script that i extend on different screen. Few things to pay attention to thou. Method names are pretty much self explainatory but the two properties Position and Rotation are not. As i have written earlier our aim was to create an illusion where the user goes to different places in a room for different screens, so position and rotation property provides this information for ScreenManager.
 
 Anyways and here for the ScreenManager:
 
-{% highlight csharp %}
+```csharp
 	[DisallowMultipleComponent]
 	public class ScreenManager : View {
 		private static ScreenView currentScreen;
@@ -190,7 +191,7 @@ Anyways and here for the ScreenManager:
 	}
 
 	public delegate IEnumerator CameraTranslation(Vector3 fromPosition, Vector3 toPosition, Vector3 fromRotation, Vector3 toRotation, float duration, Vector3? lookAt = null, float? fov = null);
-{% endhighlight %} 
+```
 
 Here it is. Thou it is prettu much tailored to our needs guess it will give you an idea on how to approach to issue. 
 
