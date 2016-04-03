@@ -31,7 +31,7 @@ $$\begin{bmatrix}x_a&y_a\end{bmatrix}\begin{bmatrix}0 & 1 \\ -1 & 0\end{bmatrix}
 These days postmultiplication is pretty much standard but some books on the subject still have examples with premultiplication.
 
 
-Let's talk on an example for a better grasp on the subject. We'll start with a point $$A=(1,1)$$ or $$A=\begin{matrixb}1\\1\\1\end{matrixb}$$ in matrix form. Notice the $$1$$ as the third coordinate? It may strike you as a $$z$$ coordinate but actually it is used to first translation of points. Imagine you want to translate our point to $$A'=(3,3)$$, all you have to do is to use a translation matrix:
+Let's talk on an example for a better grasp on the subject. We'll start with a point $$A=(1,1)$$ or $$A=\begin{bmatrix}1\\1\\1\end{bmatrix}$$ in matrix form. Notice the $$1$$ as the third coordinate? It may strike you as a $$z$$ coordinate but actually it is used to first translation of points. Imagine you want to translate our point to $$A'=(3,3)$$, all you have to do is to use a translation matrix:
 <div>$$T_{a,b}=\begin{bmatrix}1 & 0 & a \\ 0 & 1 & b \\ 0 & 0 & 1\end{bmatrix}$$</div>
 And then you can multiply it with your point.
 <div>
