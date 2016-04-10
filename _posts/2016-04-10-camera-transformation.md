@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Matrices Pt.2"
-date: 2016-4-3 21:05:28
+title: "Camera Transformation"
+date: 2016-4-10 21:05:28
 image: '/assets/img/'
 description:
 tags:
