@@ -1,0 +1,126 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Alican HASIRCI
+    tagline: Game Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: alican_hasirci@hotmail.com
+    # phone: +90 532 261 68 20
+    # website: blog.webjeda.com #do not add http://
+    linkedin: alicanhasirci
+    github: alicanhasirci
+    gitlab:
+    bitbucket:
+    twitter: '@alicanhasirci'
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: Turkish
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+      - idiom: French
+        level: Rusty
+
+    interests:
+      - item: Video Games
+        link:
+
+      - item: Book Reading
+        link:
+
+      - item: Sailing
+        link:
+
+career-profile:
+    title: Career Profile
+    summary: |
+        Driven and enthusiastic game developer, usually spending his time experimenting, deconstructing, understanding and and improving while being fascinated during this whole process.
+education:
+    - degree: BS, Information Systems and Technologies
+      university: Yeditepe University, Izmir
+      time: 2007 - 2011
+experiences:
+    - role: Senior Engine Developer
+      time: Sep 2018 - Present
+      company: Zero Density, Izmir
+      details: |
+        Zero Density is an international technology company dedicated to develop creative products for the industries such as broadcasting, live events and e-sports. It provides Unreal Engine native platform, Reality Engine®, with advanced real-time broadcast compositing system and its proprietary keying technology, Reality Keyer®.
+
+        My key responsibilities are:
+          - Maintain Unreal Engine forked code
+          - Add new functionalities to engine code
+          - Develop new image processing shader as required and maintain the old
+          - Maintain and improve CI Server and production pipeline
+    - role: Senior Game Developer
+      time: Dec 2017 - Jul 2018
+      company: Zynga, Istanbul
+      details: |
+        After the partial acquisition of Peak Games, continued to fulfill my responsibilities as a developer on Android and Unity games.
+        Some titles that I mainly worked on:
+          - [Spades Plus (LibGDX)](https://play.google.com/store/apps/details?id=net.peakgames.mobile.spades.android)
+          - [Gin Rummy Plus (Unity)](https://play.google.com/store/apps/details?id=net.peakgames.ginrummyplus)
+          - [Bid Whist Plus (Unity)](https://play.google.com/store/apps/details?id=net.peakgames.bidwhist)
+    - role: Senior Game Developer
+      time: Jan 2015 - Dec 2017
+      company: Peak Games, Istanbul
+      details: |
+        Recruited as an Android Developer for LibGDX and JNI based games, later on partook roles as one of first Unity developers after company decided to go multi-platform.
+
+        Some titles that I mainly worked on:
+          - [101 Okey Plus (C++)](https://play.google.com/store/apps/details?id=net.peakgames.Yuzbir)
+          - [Spades Plus (LibGDX)](https://play.google.com/store/apps/details?id=net.peakgames.mobile.spades.android)
+          - [Gin Rummy Plus (Unity)](https://play.google.com/store/apps/details?id=net.peakgames.ginrummyplus)
+          - [Bid Whist Plus (Unity)](https://play.google.com/store/apps/details?id=net.peakgames.bidwhist)
+          - [Toy Blast (Unity)](https://play.google.com/store/apps/details?id=net.peakgames.amy)
+          - [Toon Blast (Unity)](https://play.google.com/store/apps/details?id=net.peakgames.toonblast)
+
+        My key responsibilities were:
+          - To maintain and develop new features for LibGDX and C++ games.
+          - Write and maintain shared support libraries for Unity games.
+          - Profile bottlenecks and optimize Unity games.
+          - Integrate 3rd party SDKs for games (analytics tools, ad networks, crash reporting tools etc.).
+    - role: Software Engineer, Consultant
+      time: Apr 2014 - Sep 2014
+      company: Borsa Istanbul, Istanbul
+      details: |
+        Worked as contracted consultant to help a intermediary firm with their transition to a new stock exchange communication protocol.
+    - role: Software Engineer
+      time: Jun 2013 - Jan 2014
+      company: Invictus Europe, Istanbul
+    - role: Software Engineer
+      time: Dec 2011 - Jun 2013
+      company: Netas Nortel, Istanbul
+      details: |
+        Developed enterprise applications for telecommunication companies country wide providing solution mainly for GSM tower auditing and datacenter management.
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: C#
+        level: 98%
+
+      - name: Java
+        level: 98%
+
+      - name: C++
+        level: 80%
+
+      - name: Kotlin
+        level: 60%
+
+      - name: Python
+        level: 60%
