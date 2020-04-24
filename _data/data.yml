@@ -44,6 +44,9 @@ sidebar:
       - item: Sailing
         link:
 
+      - item: Math
+        link:
+
       - item: Convince ppl that singleton is not a fairy dust to sprinkle around
         link:
 
@@ -57,7 +60,7 @@ career-profile:
         Usually, I blame people for any bug introduced to codebase, only to find out it was me all along, fix it and walk away whistling as a slightly smarter person.
 education:
     - degree: BS, Information Systems and Technologies
-      university: Yeditepe University, Izmir
+      university: Yeditepe University, Istanbul
       time: 2007 - 2011
 experiences:
     - role: Senior Engine Developer
