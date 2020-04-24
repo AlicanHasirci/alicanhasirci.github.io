@@ -44,10 +44,17 @@ sidebar:
       - item: Sailing
         link:
 
+      - item: Convince ppl that singleton is not a fairy dust to sprinkle around
+        link:
+
 career-profile:
     title: Career Profile
     summary: |
         Driven and enthusiastic game developer, usually spending his time experimenting, deconstructing, understanding and and improving while being fascinated during this whole process.
+
+        Quite fond of testing and consider it as a must for any product on market for people to use freely. I like a scoop of abstraction with some dependency injection as a cherry on top.
+
+        Usually, I blame people for any bug introduced to codebase, only to find out it was me all along, fix it and walk away whistling as a slightly smarter person.
 education:
     - degree: BS, Information Systems and Technologies
       university: Yeditepe University, Izmir
@@ -60,10 +67,9 @@ experiences:
         Zero Density is an international technology company dedicated to develop creative products for the industries such as broadcasting, live events and e-sports. It provides Unreal Engine native platform, Reality Engine®, with advanced real-time broadcast compositing system and its proprietary keying technology, Reality Keyer®.
 
         My key responsibilities are:
-          - Maintain Unreal Engine forked code
-          - Add new functionalities to engine code
-          - Develop new image processing shader as required and maintain the old
-          - Maintain and improve CI Server and production pipeline
+          - Improving Unreal Engine forked code for higher modular cohesion and lower coupling.
+          - Develop new fancy image processing shaders and improve the old such as keying algorithms.
+          - Being at the vanguard on refactoring the old brittle build pipeline and CI server while segregating most of squeezed in code to a plugin architecture for high portability and reusability.
     - role: Senior Game Developer
       time: Dec 2017 - Jul 2018
       company: Zynga, Istanbul
@@ -77,7 +83,7 @@ experiences:
       time: Jan 2015 - Dec 2017
       company: Peak Games, Istanbul
       details: |
-        Recruited as an Android Developer for LibGDX and JNI based games, later on partook roles as one of first Unity developers after company decided to go multi-platform.
+        Recruited as an Android Developer for LibGDX and JNI based games, later on partook role as one of first Unity developers after company decided to go multi-platform.
 
         Some titles that I mainly worked on:
           - [101 Okey Plus (C++)](https://play.google.com/store/apps/details?id=net.peakgames.Yuzbir)
@@ -88,15 +94,16 @@ experiences:
           - [Toon Blast (Unity)](https://play.google.com/store/apps/details?id=net.peakgames.toonblast)
 
         My key responsibilities were:
-          - To maintain and develop new features for LibGDX and C++ games.
-          - Write and maintain shared support libraries for Unity games.
-          - Profile bottlenecks and optimize Unity games.
+          - Implement new features for LibGDX and C++ games.
+          - Create shared support libraries out of thin air for Unity games.
+          - Profile bottlenecks and optimize Unity games, while wondering why Unity hasn't published the source code yet.
           - Integrate 3rd party SDKs for games (analytics tools, ad networks, crash reporting tools etc.).
+          - Assure > 99.5% crash-free session rate on all the games that i worked with which is essentially laying railroad tracks while looking back, hoping not to see any headlights.
     - role: Software Engineer, Consultant
       time: Apr 2014 - Sep 2014
       company: Borsa Istanbul, Istanbul
       details: |
-        Worked as contracted consultant to help a intermediary firm with their transition to a new stock exchange communication protocol.
+        Worked as contracted consultant to help an intermediary firm with their transition to a new stock exchange communication protocol.
     - role: Software Engineer
       time: Jun 2013 - Jan 2014
       company: Invictus Europe, Istanbul
@@ -104,20 +111,26 @@ experiences:
       time: Dec 2011 - Jun 2013
       company: Netas Nortel, Istanbul
       details: |
-        Developed enterprise applications for telecommunication companies country wide providing solution mainly for GSM tower auditing and datacenter management.
+        Developed enterprise applications for telecommunication companies country wide providing solutions mainly for GSM tower auditing and datacenter management.
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: C#
+      - name: Unity
         level: 98%
 
-      - name: Java
+      - name: UE4
+        level: 80%
+
+      - name: C#
         level: 98%
 
       - name: C++
         level: 80%
+
+      - name: Java
+        level: 75%
 
       - name: Kotlin
         level: 60%

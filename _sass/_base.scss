@@ -92,8 +92,11 @@ p {
             }
         }
     }
+    .container-block-top {
+      padding: 20px 20px 10px 20px;
+    }
     .container-block {
-        padding: 30px;
+        padding: 10px 20px;
     }
     .container-block-title {
         text-transform: uppercase;
@@ -167,7 +170,7 @@ p {
         margin-bottom: 20px;
     }
     .section {
-        margin-bottom: 60px;
+        margin-bottom: 30px;
     }
 
     .experiences-section, .educations-section {
