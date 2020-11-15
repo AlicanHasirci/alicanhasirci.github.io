@@ -51,17 +51,19 @@ career-profile:
     title: Career Profile
     summary: |
         Driven and enthusiastic game developer, usually spending his time experimenting, deconstructing, understanding and and improving while being fascinated during this whole process.
-
-        Quite fond of testing and consider it as a must for any product on market for people to use freely. I like a scoop of abstraction with some dependency injection as a cherry on top.
-
-        Usually, I blame people for any bug introduced to codebase, only to find out it was me all along, fix it and walk away whistling as a slightly smarter person.
 education:
     - degree: BS, Information Systems and Technologies
       university: Yeditepe University, Istanbul
       time: 2007 - 2011
 experiences:
+    - role: Head Of Engineering
+      time: Sep 2020 - Present
+      company: Gulliver's Games, Istanbul
+      details: |
+        Developing games with an impeccable team of bright and passionate people.
+
     - role: Senior Engine Developer
-      time: Sep 2018 - Present
+      time: Sep 2018 - Aug 2020
       company: Zero Density, Izmir
       details: |
         Zero Density is an international technology company dedicated to develop creative products for the industries such as broadcasting, live events and e-sports. It provides Unreal Engine native platform, Reality Engine®, with advanced real-time broadcast compositing system and its proprietary keying technology, Reality Keyer®.
