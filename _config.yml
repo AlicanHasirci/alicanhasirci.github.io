@@ -1,41 +1,27 @@
-# Site settings
-description: alican.co
-title: alican.co
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://alican.co" # the base hostname & protocol for your site
+title: Alican Hasırcı # name of the site
+author: Alican Hasirci # name of site's author
+email: alican@revel.gs # email of site's author
+url: https://alican.rocks # root address of the site
+baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
+description: > # description of the site (multiple lines allowed)
+  A (nearly) no-CSS, fast, minimalist Jekyll theme.
 
-# User settings
-username: Alican HASIRCI
-user_description: Developer at Peak Games
-user_title: Developer at Peak Games
-email: alican@peakgames.net
-twitter_username: AlicanHasirci
-github_username:  AlicanHasirci
-gplus_username:  AlicanHasirci
-disqus_username: 
+permalink: /:slug.html
 
-# Build settings
-markdown: kramdown
-highlighter: rouge
-permalink: /:title/
+favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
+# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
 
+theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
 
-# html minify
-compress_html:
-  clippings: all
-  comments: all
-  endings: []
-  profile: false
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: false # show blog description in home page
 
-# Links to include in menu navigation
-# For external links add external: true
-links:
-  - title: Home
-    url: /
-  - title: Tags
-    url: /tags
-  - title: About Me
-    url: /about
+sass:
+  style: :compressed
 
-# exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag

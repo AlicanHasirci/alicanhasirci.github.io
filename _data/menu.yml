@@ -1,0 +1,15 @@
+# For documentation on this file, see:
+# https://github.com/riggraz/no-style-please#customize-the-menu
+
+entries:
+  - title: info
+    entries:
+      - title: I code for food
+      - title: Game Developer @ <a href='https://revel.gs'>Revel Games</a>
+      - title: <a href='https://github.com/alicanhasirci'>github</a> & <a href='https://x.com/alicanhasirci'>x</a>
+
+  - title: all posts
+    post_list:
+      show_more: true
+      show_more_text: See archive...
+      show_more_url: archive.html
