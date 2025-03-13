@@ -1,27 +1,55 @@
-title: Alican Hasırcı # name of the site
-author: Alican Hasirci # name of site's author
-email: alican@revel.gs # email of site's author
-url: https://alican.rocks # root address of the site
-baseurl: "/" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
-description: > # description of the site (multiple lines allowed)
-  A (nearly) no-CSS, fast, minimalist Jekyll theme.
+# Site settings
+title: "Alican HASIRCI"
+description: "Resume"
 
-permalink: /:slug.html
-
-favicon: "logo.png" # name+extension of favicon (which must be put on the root folder)
-# goat_counter: "yoursitename" # put your GoatCounter name if you want to use GoatCounter analytics
-
-remote_theme: riggraz/no-style-please
-
-theme_config:
-  appearance: "auto" # can be "light", "dark" or "auto"
-  back_home_text: ".." # customize text for homepage link in post layout
-  date_format: "%Y-%m-%d" # customize how date is formatted
-  show_description: false # show blog description in home page
-
+# Build settings
+markdown: kramdown
 sass:
-  style: :compressed
+  sass_dir: _sass
+  style: compressed
 
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Alican HASIRCI"
+resume_title:                   "Game Developer"
+
+# used for the contact button in _layouts/resume.html
+resume_contact_email:           "alican_hasirci@hotmail.com"
+
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone:       "+90532616820"
+resume_contact_address:         "Izmir, Turkiye"
+
+resume_header_contact_info:     "Izmir Turkey • +90532616820 • alican_hasirci@hotmail.com"
+display_header_contact_info:    "false"
+
+resume_header_intro: "<p>I’m a passionate game developer with over ten years of experience turning creative ideas into immersive gaming experiences. I thrive on bringing games to life, whether it’s leading engineering teams, solving complex technical challenges, or just getting lost in the code. With a deep love for game development and a knack for innovation, I’m always looking for new ways to push boundaries and create something truly unforgettable for players.</p>"
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work:        "yes"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience:      true
+resume_section_education:       true
+#resume_section_projects:        true
+#resume_section_skills:          true
+#resume_section_recognition:     true
+#resume_section_links:           true
+#resume_section_associations:    true
+resume_section_interests:       true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url:            "https://github.com/alicanhasirci"
+  resume_linkedin_url:          "https://www.linkedin.com/in/alicanhasirci"
+  resume_website_url:           "https://alican.rocks"
+  resume_medium_url:            "https://medium.com/@alicanhasirci"
+resume_print_social_links:      true
+
+# Design settings
+resume_theme:                   default

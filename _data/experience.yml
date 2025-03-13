@@ -1,0 +1,26 @@
+# Jobs
+- company: Revel Games
+  position: Co-Founder, Head Of Engineering
+  duration: Oct, 2021 &mdash; Present
+  summary: As one of the four co-founders of Revel Games, I was responsible for the technical direction and infrastructure of the company. In this role, I led the development team, defined architectural decisions, and ensured the scalability and stability of our projects.<p>Beyond the technical challenges, this experience was a profound learning journey in both leadership and company management. Through trial and error, I gained invaluable insights into team dynamics, decision-making, and business strategy. The mistakes I made along the way became critical lessons—shaping my understanding of how to build and lead a team effectively, foster a strong company culture, and drive a vision forward in the competitive gaming industry.</p>
+
+- company: Gulliver's Games
+  position: Lead Game Developer
+  duration: Sep, 2020 &mdash; Dec, 2020
+  summary: At Gulliver’s Games, I took on my first leadership role as a Lead Developer, overseeing two separate development teams. One team focused on rapidly prototyping and developing hyper-casual games, while the other worked on a casual game project with a longer development cycle.<p>My responsibilities included mentoring developers, defining technical roadmaps, and ensuring smooth project execution across both teams. I played a key role in code reviews, architecture decisions, and optimizing development workflows to balance speed and quality in hyper-casual projects while maintaining scalability and depth in the casual game. This experience strengthened my technical leadership, project management, and team coordination skills within a fast-paced game development environment.</p>
+
+- company: Zero Density
+  position: Engine Developer
+  duration: Sep, 2018 &mdash; Jul, 2020
+  summary: At Zero Density, I joined the team to expand my expertise in different game engines and gain deeper insights into graphics pipelines. My work primarily focused on a custom codebase forked from Unreal Engine’s source code, where I contributed to modifying the engine’s rendering pipeline to enable real-time compositing of engine renders with live camera input.<p>This role allowed me to work at the intersection of real-time graphics, virtual production, and broadcast technology, enhancing my understanding of engine-level rendering optimizations and real-time compositing techniques. Through hands-on experience with Unreal Engine’s internals, I deepened my skills in low-level engine modifications and performance optimizations for high-fidelity visual applications.</p>
+
+- company: Zynga
+  position: Game Developer
+  duration:  Dec, 2017 &mdash; Sep, 2018
+  summary: Following Zynga’s acquisition of Peak Games' Card & Board Studio, I continued my role in maintaining and developing multiple live titles, including Spades Plus, Tavla Plus, Gin Rummy Plus, and Bid Whist Plus. My responsibilities encompassed bug fixing, feature development, and optimizing game performance to ensure a seamless player experience.<p>I collaborated closely with cross-functional teams to enhance existing gameplay mechanics, implement new content, and improve system stability. Working within Zynga’s ecosystem, I adapted to new development workflows and best practices while ensuring the continued success and growth of these widely played social card and board games.</p>
+
+
+- company: Peak Games
+  position: Game Developer
+  duration:   Jan, 2015  &mdash; Dec, 2017
+  summary: At Peak Games, I initially worked on Android projects, focusing on bug fixing and feature development. In 2015, I was among the first two developers to transition to Unity within the company. My early Unity work involved integrating and optimizing libraries, ensuring smooth interoperability with existing systems.<p>Following this, I played a key role in the development and successful launch of Gin Rummy Plus, the first Unity-based title from the Card & Board Studio at Peak. This project involved close collaboration with designers and backend engineers to deliver a high-quality, scalable, and engaging gaming experience. My contributions ranged from core gameplay mechanics to performance optimizations, helping establish Unity as a viable engine within the studio.</p>
