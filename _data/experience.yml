@@ -1,7 +1,7 @@
 # Jobs
 - company: Revel Games
   position: Co-Founder, Head Of Engineering
-  duration: Oct, 2021 &mdash; Present
+  duration: Jan, 2021 &mdash; Present
   summary: As one of the four co-founders of Revel Games, I was responsible for the technical direction and infrastructure of the company. In this role, I led the development team, defined architectural decisions, and ensured the scalability and stability of our projects.<p>Beyond the technical challenges, this experience was a profound learning journey in both leadership and company management. Through trial and error, I gained invaluable insights into team dynamics, decision-making, and business strategy. The mistakes I made along the way became critical lessons—shaping my understanding of how to build and lead a team effectively, foster a strong company culture, and drive a vision forward in the competitive gaming industry.</p>
 
 - company: Gulliver's Games
@@ -19,8 +19,27 @@
   duration:  Dec, 2017 &mdash; Sep, 2018
   summary: Following Zynga’s acquisition of Peak Games' Card & Board Studio, I continued my role in maintaining and developing multiple live titles, including Spades Plus, Tavla Plus, Gin Rummy Plus, and Bid Whist Plus. My responsibilities encompassed bug fixing, feature development, and optimizing game performance to ensure a seamless player experience.<p>I collaborated closely with cross-functional teams to enhance existing gameplay mechanics, implement new content, and improve system stability. Working within Zynga’s ecosystem, I adapted to new development workflows and best practices while ensuring the continued success and growth of these widely played social card and board games.</p>
 
-
 - company: Peak Games
   position: Game Developer
   duration:   Jan, 2015  &mdash; Dec, 2017
   summary: At Peak Games, I initially worked on Android projects, focusing on bug fixing and feature development. In 2015, I was among the first two developers to transition to Unity within the company. My early Unity work involved integrating and optimizing libraries, ensuring smooth interoperability with existing systems.<p>Following this, I played a key role in the development and successful launch of Gin Rummy Plus, the first Unity-based title from the Card & Board Studio at Peak. This project involved close collaboration with designers and backend engineers to deliver a high-quality, scalable, and engaging gaming experience. My contributions ranged from core gameplay mechanics to performance optimizations, helping establish Unity as a viable engine within the studio.</p>
+
+- company: Bizim Menkul Degerler
+  position: Software Developer, Consultant
+  duration:   Jan, 2015  &mdash; Dec, 2017
+  summary:
+
+- company: Prodaft
+  position: Software Developer
+  duration:   May, 2013  &mdash; Jan, 2014
+  summary:
+
+- company: Netas
+  position: Software Developer
+  duration:   Nov, 2011  &mdash; May, 2013
+  summary:
+
+- company: Mydays
+  position: Intern
+  duration:   Jun, 2011  &mdash; Nov, 2011
+  summary:
