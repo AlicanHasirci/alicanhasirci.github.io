@@ -1,45 +1,118 @@
 # Jobs
 - company: Revel Games
   position: Co-Founder, Head Of Engineering
-  duration: Jan, 2021 &mdash; Present
-  summary: As one of the four co-founders of Revel Games, I was responsible for the technical direction and infrastructure of the company. In this role, I led the development team, defined architectural decisions, and ensured the scalability and stability of our projects.<p>Beyond the technical challenges, this experience was a profound learning journey in both leadership and company management. Through trial and error, I gained invaluable insights into team dynamics, decision-making, and business strategy. The mistakes I made along the way became critical lessons—shaping my understanding of how to build and lead a team effectively, foster a strong company culture, and drive a vision forward in the competitive gaming industry.</p>
+  duration: Jan, 2021 &mdash; Feb, 2025
+  summary: As one of the four co-founders of Revel Games, I was responsible for the technical direction and infrastructure of the company. In this role, I led the development team, defined architectural decisions, and ensured the scalability and stability of our projects.
+    <p>Beyond the technical challenges, this experience was a profound learning journey in both leadership and company management. Through trial and error, I gained invaluable insights into team dynamics, decision-making, and business strategy. The mistakes I made along the way became critical lessons—shaping my understanding of how to build and lead a team effectively, foster a strong company culture, and drive a vision forward in the competitive gaming industry.</p>
+    <h4>Responsibilities</h4>
+    <ul>
+    <li>Defined technical architecture and infrastructure for multiple game projects, ensuring scalability, maintainability, and performance.</li>
+    <li>Led a cross-functional development team, fostering a strong engineering culture through mentoring and collaborative decision-making.</li>
+    <li>Established engineering workflows and deployment pipelines to streamline production and improve delivery velocity.</li>
+    <li>Oversaw long-term technical strategy aligned with company goals, balancing innovation with pragmatic development choices.</li>
+    <li>Played a key role in business strategy and team operations, evolving leadership skills through hands-on experience with startup dynamics.</li>
+    </ul>
 
 - company: Gulliver's Games
   position: Lead Game Developer
   duration: Sep, 2020 &mdash; Dec, 2020
-  summary: At Gulliver’s Games, I took on my first leadership role as a Lead Developer, overseeing two separate development teams. One team focused on rapidly prototyping and developing hyper-casual games, while the other worked on a casual game project with a longer development cycle.<p>My responsibilities included mentoring developers, defining technical roadmaps, and ensuring smooth project execution across both teams. I played a key role in code reviews, architecture decisions, and optimizing development workflows to balance speed and quality in hyper-casual projects while maintaining scalability and depth in the casual game. This experience strengthened my technical leadership, project management, and team coordination skills within a fast-paced game development environment.</p>
+  summary: At Gulliver’s Games, I took on my first leadership role as a Lead Developer, overseeing two separate development teams. One team focused on rapidly prototyping and developing hyper-casual games, while the other worked on a casual game project with a longer development cycle.
+    <h4>Responsibilities</h4>
+    <ul>
+    <li>Managed two distinct development pipelines for hyper-casual and casual titles, coordinating rapid prototyping and full-scale development.</li>
+    <li>Provided technical mentorship and conducted regular code reviews to raise engineering standards across teams.</li>
+    <li>Designed scalable architecture patterns suited to fast iteration cycles and varied game mechanics.</li>
+    <li>Balanced short-term delivery speed with long-term product quality by optimizing development workflows.</li>
+    <li>Contributed to shaping the studio’s technical roadmap while collaborating with producers and designers on feature prioritization.</li>
+    </ul>
 
 - company: Zero Density
   position: Engine Developer
   duration: Sep, 2018 &mdash; Jul, 2020
   summary: At Zero Density, I joined the team to expand my expertise in different game engines and gain deeper insights into graphics pipelines. My work primarily focused on a custom codebase forked from Unreal Engine’s source code, where I contributed to modifying the engine’s rendering pipeline to enable real-time compositing of engine renders with live camera input.<p>This role allowed me to work at the intersection of real-time graphics, virtual production, and broadcast technology, enhancing my understanding of engine-level rendering optimizations and real-time compositing techniques. Through hands-on experience with Unreal Engine’s internals, I deepened my skills in low-level engine modifications and performance optimizations for high-fidelity visual applications.</p>
+    <h4>Responsibilities</h4>
+    <ul>
+    <li>Modified Unreal Engine’s rendering pipeline to support real-time compositing for virtual production and broadcast applications.</li>
+    <li>Developed engine-level features enhancing live camera integration and high-fidelity real-time visuals.</li>
+    <li>Performed deep profiling and performance optimization on custom rendering workflows.</li>
+    <li>Worked with a multidisciplinary team to align technical deliverables with studio and broadcast production requirements.</li>
+    <li>Gained advanced experience in Unreal Engine internals and low-level graphics pipeline engineering.</li>
+    </ul>
 
 - company: Zynga
   position: Game Developer
   duration:  Dec, 2017 &mdash; Sep, 2018
-  summary: Following Zynga’s acquisition of Peak Games' Card & Board Studio, I continued my role in maintaining and developing multiple live titles, including Spades Plus, Tavla Plus, Gin Rummy Plus, and Bid Whist Plus. My responsibilities encompassed bug fixing, feature development, and optimizing game performance to ensure a seamless player experience.<p>I collaborated closely with cross-functional teams to enhance existing gameplay mechanics, implement new content, and improve system stability. Working within Zynga’s ecosystem, I adapted to new development workflows and best practices while ensuring the continued success and growth of these widely played social card and board games.</p>
+  summary: Following Zynga’s acquisition of Peak Games' Card & Board Studio, I continued my role in maintaining and developing multiple live titles, including Spades Plus, Tavla Plus, Gin Rummy Plus, and Bid Whist Plus.
+    <h4>Responsibilities</h4>
+    <ul>
+    <li>Maintained and enhanced several top-grossing mobile games post-acquisition, including Spades Plus and Gin Rummy Plus.</li>
+    <li>Delivered new gameplay features and optimized performance across Android and iOS platforms.</li>
+    <li>Collaborated with cross-functional teams to improve game stability and user retention.</li>
+    <li>Adapted to Zynga’s development pipelines and CI/CD processes while contributing to high-impact live updates.</li>
+    <li>Supported feature rollouts and bug fixes in close coordination with backend and QA teams.</li>
+    </ul>
 
 - company: Peak Games
   position: Game Developer
   duration:   Jan, 2015  &mdash; Dec, 2017
   summary: At Peak Games, I initially worked on Android projects, focusing on bug fixing and feature development. In 2015, I was among the first two developers to transition to Unity within the company. My early Unity work involved integrating and optimizing libraries, ensuring smooth interoperability with existing systems.<p>Following this, I played a key role in the development and successful launch of Gin Rummy Plus, the first Unity-based title from the Card & Board Studio at Peak. This project involved close collaboration with designers and backend engineers to deliver a high-quality, scalable, and engaging gaming experience. My contributions ranged from core gameplay mechanics to performance optimizations, helping establish Unity as a viable engine within the studio.</p>
+    <h4>Responsibilities</h4>
+    <ul>
+    <li>Transitioned the studio’s workflow to Unity, pioneering development practices for mobile card and board games.</li>
+    <li>Co-developed and launched Gin Rummy Plus, Peak's first Unity-based title, driving key gameplay and system features.</li>
+    <li>Integrated and optimized external SDKs and plugins to ensure smooth runtime and analytics tracking.</li>
+    <li>Collaborated closely with designers and backend engineers to deliver synchronized client-server experiences.</li>
+    <li>Contributed to performance optimization and codebase structure, helping establish Unity as the default engine in the studio.</li>
+    </ul>
 
 - company: Bizim Menkul Degerler
   position: Software Developer, Consultant
   duration:   Jan, 2015  &mdash; Dec, 2017
-  summary:
+  summary: Developed a custom Java-based system to replace legacy stock exchange communication protocols with the Financial Information eXchange (FIX) standard. Designed and implemented the full message exchange pipeline with Borsa Istanbul, enabling real-time sending and receiving of stock orders. Ensured secure and accurate database persistence of all trading transactions.
+    <h4>Responsibilities</h4>
+    <ul>
+    <li>Designed and developed a Java-based communication layer to integrate with Borsa Istanbul using the FIX protocol</li>
+    <li>Replaced legacy stock order transmission system with a modern, real-time FIX-compliant solution</li>
+    <li>Implemented message parsing, validation, and routing logic for incoming and outgoing stock exchange transactions</li>
+    <li>Ensured reliable data persistence by integrating order flow with a structured relational database</li>
+    <li>Collaborated with business stakeholders to validate functional accuracy and compliance of order-handling logic</li>
+    </ul>
 
 - company: Prodaft
   position: Software Developer
   duration:   May, 2013  &mdash; Jan, 2014
-  summary:
+  summary: Developed internal Java-based utility tools to support penetration testing operations and cybersecurity audits.
+    <h4>Responsibilities</h4>
+    <ul>
+    <li>Designed and implemented custom Java applications to streamline workflows for ethical hackers and penetration testers</li>
+    <li>Built automation tools for reconnaissance, vulnerability scanning, and data parsing tailored to internal testing needs</li>
+    <li>Developed user interfaces and CLI-based modules for quick deployment and field usability</li>
+    <li>Collaborated with cybersecurity experts to define tool specifications aligned with real-world pentest scenarios</li>
+    <li>Maintained code quality and modularity to ensure easy extensibility for future security toolsets</li>
+    </ul>
 
 - company: Netas
   position: Software Developer
   duration:   Nov, 2011  &mdash; May, 2013
-  summary:
+  summary: Worked on Java-based enterprise portals and Android applications tailored for telecom companies to support auditing and operational control processes.
+    <h4>Responsibilities</h4>
+    <ul>
+    <li>Developed Java EE web applications to support enterprise portal functionality for telecom clients</li>
+    <li>Created Android applications enabling field audit teams to perform real-time data entry and validation</li>
+    <li>Integrated backend systems with telecom data sources and ensured secure API communication</li>
+    <li>Collaborated with QA and business analysts to align portal features with telecom compliance standards</li>
+    <li>Delivered production-ready solutions with scalable architecture and robust user interfaces</li>
+    </ul>
 
 - company: Mydays
   position: Intern
   duration:   Jun, 2011  &mdash; Nov, 2011
-  summary:
+  summary: Assisted in managing web content and developing front-end components for a customer-facing experience gift platform.
+    <h4>Responsibilities</h4>
+    <ul>
+    <li>Updated and maintained website inventory by managing product listings and availability</li>
+    <li>Created and styled web pages using HTML and CSS to reflect current offerings and campaigns</li>
+    <li>Designed interactive visual components using Adobe Flash for marketing and promotional content</li>
+    <li>Collaborated with content and design teams to ensure consistency across site visuals and user experience</li>
+    <li>Supported day-to-day site maintenance tasks and assisted in implementing layout adjustments and bug fixes</li>
+    </ul>
